@@ -6,19 +6,19 @@ const Navbar = () => {
   return (
     <View style={styles.navContainer}>
       <TouchableOpacity style={styles.navButton}>
-        <MaterialCommunityIcons name="home-variant" size={28} color="#4A90E2" />
+        <MaterialCommunityIcons name="home-variant" size={28} color="#C13BFF" />
       </TouchableOpacity>
       <TouchableOpacity style={styles.navButton}>
-        <MaterialCommunityIcons name="format-list-bulleted" size={28} color="#7f8c8d" />
+        <MaterialCommunityIcons name="format-list-bulleted" size={28} color="#ffffffff" />
       </TouchableOpacity>
       <TouchableOpacity style={styles.addButton}>
         <MaterialCommunityIcons name="plus" size={32} color="white" />
       </TouchableOpacity>
       <TouchableOpacity style={styles.navButton}>
-        <MaterialCommunityIcons name="chart-bar" size={28} color="#7f8c8d" />
+        <MaterialCommunityIcons name="chart-bar" size={28} color="#ffffffff" />
       </TouchableOpacity>
       <TouchableOpacity style={styles.navButton}>
-        <MaterialCommunityIcons name="cog" size={28} color="#7f8c8d" />
+        <MaterialCommunityIcons name="cog" size={28} color="#ffffffff" />
       </TouchableOpacity>
     </View>
   );
@@ -28,11 +28,11 @@ const styles = StyleSheet.create({
   navContainer: {
     flexDirection: 'row',
     height: 60,
-    backgroundColor: 'white',
+    backgroundColor: '#241191',
     justifyContent: 'space-around',
     alignItems: 'center',
     borderTopWidth: 1,
-    borderTopColor: '#eee',
+    borderTopColor: '#241191',
     elevation: 8,
   },
   navButton: {
@@ -44,15 +44,12 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     borderRadius: 30,
-    backgroundColor: '#4A90E2',
+    backgroundColor: '#241191',
     justifyContent: 'center',
     alignItems: 'center',
     bottom: 20,
-    elevation: 5,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.3,
-    shadowRadius: 3,
+    borderWidth: 3,
+    borderColor: '#f0f2f5',
   },
 });
 

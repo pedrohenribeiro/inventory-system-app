@@ -26,14 +26,14 @@ const androidStatusBarHeight = Platform.OS === 'android' ? StatusBar.currentHeig
 
 const styles = StyleSheet.create({
   safeArea: {
-    backgroundColor: '#4A0072',
+    backgroundColor: '#241191',
   },
   headerContainer: {
     paddingTop: androidStatusBarHeight,
     height: 60 + androidStatusBarHeight,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#4A0072',
+    backgroundColor: '#241191',
   },
   headerTitle: {
     color: 'white',
