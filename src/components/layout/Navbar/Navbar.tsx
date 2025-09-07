@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <View style={styles.navContainer}>
       <TouchableOpacity style={styles.navButton}>
-        <MaterialCommunityIcons name="home-variant" size={28} color="#C13BFF" />
+        <MaterialCommunityIcons name="home-variant" size={28} color="#59a7ffff" />
       </TouchableOpacity>
       <TouchableOpacity style={styles.navButton}>
         <MaterialCommunityIcons name="format-list-bulleted" size={28} color="#ffffffff" />
